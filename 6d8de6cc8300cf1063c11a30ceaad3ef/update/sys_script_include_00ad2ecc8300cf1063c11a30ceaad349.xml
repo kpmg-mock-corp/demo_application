@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_165991_cicd_te_0.DevOpsUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>DevOpsUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DevOpsUtil = Class.create();
+DevOpsUtil.prototype = {
+    initialize: function() {
+    },
+
+	testingFunction : function(){
+		//to do here additional this is updated
+	},
+
+    type: 'DevOpsUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-31 01:52:08</sys_created_on>
+        <sys_id>00ad2ecc8300cf1063c11a30ceaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevOpsUtil</sys_name>
+        <sys_package display_value="CICD Test app" source="x_165991_cicd_te_0">6d8de6cc8300cf1063c11a30ceaad3ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD Test app">6d8de6cc8300cf1063c11a30ceaad3ef</sys_scope>
+        <sys_update_name>sys_script_include_00ad2ecc8300cf1063c11a30ceaad349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-31 01:52:08</sys_updated_on>
+    </sys_script_include>
+</record_update>
